@@ -1,8 +1,10 @@
 from django.contrib import admin
 from django.urls import path,include
 from mysite.views import HomeView
-from django.conf.urls.static import static
-from django.conf import settings
+
+#from django.conf.urls.static import static
+#from django.conf import settings
+
 from mysite.views import UserCreateView,UserCreateDoneTV
 
 
@@ -17,4 +19,4 @@ urlpatterns = [
     path('bookmark/',include('bookmark.urls')),
     path('blog/',include('blog.urls')),
     path('photo/',include('photo.urls')), #추가
-] + static(settings.MEDIA_URL,document_root = settings.MEDIA_ROOT) # 추가
+] #+ static(settings.MEDIA_URL,document_root = settings.MEDIA_ROOT) # 추가

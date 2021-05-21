@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'sorl.thumbnail',
+    'sorl.thumbnail',    #기존
+    'storages',          #추가
 
     'bookmark.apps.BookmarkConfig', # 북마크 앱 추가
     'blog.apps.BlogConfig',
@@ -153,3 +154,13 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 #LOGIN_URL = '/accounts/login/'
 LOGIN_REDIRECT_URL = '/'
+
+STATICFILES_STORAGE = 'mysite.storage.S3StaticStorage'
+DEFAULT_FILE_STORAGE = 'mysite.storage.S3MediaStorage'
+
+AWS_ACCESS_KEY_ID = 'AKIAZOMIPS2BQ7UBRQQZ'
+AWS_SECRET_ACCESS_KEY = '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'
+AWS_S3_REGION_NAME = 'ap-northeast-2'
+AWS_STORAGE_BUCKET_NAME = 'jhkim-bucket'
+AWS_S3_CUSTOM_DOMAIN = f"{AWS_STORAGE_BUCKET_NAME}.s3.{AWS_S3_REGION_NAME}.amazonaws.com"
+AWS_DEFAULT_ACL = 'public-read'
