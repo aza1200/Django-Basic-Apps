@@ -2,3 +2,5 @@
 media
 new_user_credentials.csv
 vDjBook
+db.sqlite3
+static
