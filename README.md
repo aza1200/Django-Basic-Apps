@@ -2,7 +2,7 @@
 
 ### User,Database 에 대한 Create,Update,Delete,Read 구현
 ### ● Framework : Django,Bootstrap 
-### ● Server : Amazon S3 , RDS (MySQL)
+### ● Amazon S3 , RDS (MySQL) 활용
 
 #### ● 실행방법 
         1. 다운로드후  python manage.py runserver
