@@ -1,4 +1,4 @@
-# Django_Basic_Apps
+# Django Basic Apps
 
 ### User,Database 에 대한 Create,Update,Delete,Read 구현
 ### ● Framework : Django,Bootstrap 
