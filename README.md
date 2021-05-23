@@ -19,7 +19,7 @@
 ## 2. Photo 
         - Album , Photo 1:N 관계 
 <img src="/Results/Photo_List.png">  
-<img src="/Results/Photo_List.png">  
+<img src="/Results/Album_Detail.png">  
 
 ## 3. Blog
         - Blog 의 Tile,내용 ,Description 구현
