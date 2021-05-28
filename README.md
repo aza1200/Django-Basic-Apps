@@ -1,8 +1,9 @@
 # Django Basic Apps
+## 링크 : http://3.36.128.159:8000/
 
 ### User,Database 에 대한 Create,Update,Delete,Read 구현
 ### ● Framework : Django,Bootstrap 
-### ● Amazon S3 , RDS (MySQL) 활용
+### ● Amazon S3 , RDS (MySQL) 활용,EC2 로 배포
 
 #### ● 실행방법 
         1. 다운로드후  python manage.py runserver
@@ -43,4 +44,3 @@
 <img src="/Results/User_Change.png">  
 
 
-#####  Elastic Beanstalk 으로 배포시도중...ㅠㅠ
