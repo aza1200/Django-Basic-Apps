@@ -5,4 +5,11 @@ vDjBook
 db.sqlite3
 static
 *.pyc
+
 __pycache__
+
+.env
+
+Pipfile.lock
+
+Pipfile
