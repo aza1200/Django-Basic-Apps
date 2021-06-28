@@ -1,5 +1,5 @@
 # Django Basic Apps
-## 링크 : http://3.36.128.159:8000/
+## 링크 : http://3.35.51.42:8000/
 
 ### User,Database 에 대한 Create,Update,Delete,Read 구현
 ### ● Framework : Django,Bootstrap 
